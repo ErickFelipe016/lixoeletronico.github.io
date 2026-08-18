@@ -3,267 +3,298 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lixo Eletrônico - Gestão Sustentável de Resíduos Eletrônicos</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
-
-    <!-- Ligação com o arquivo CSS -->
-   <link rel="stylesheet" href="lixo eletronico 2 .css">
-
-    <!-- Ligação com o arquivo JavaScript -->
-    <script src="lixo eletronico 2.js"></script>
-
+    <title>Lixo Eletrônico Mossoró - Descarte Consciente de Resíduos Eletroeletrônicos</title>
+    <meta name="description" content="Informação e pontos de coleta para o descarte correto de lixo eletrônico em Mossoró - RN.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="lixo eletronico 2 .css">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav id="navbar">
-        <div class="nav-container">
-            <div class="logo">
-                Lixo Eletrônico
-                <div class="logo-subtitle">Gestão Sustentável</div>
-            </div>
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#what-is">O que é ?</a></li>
-                <li><a href="#problems">Problemas</a></li>
-                <li><a href="#solutions">Soluções</a></li>
-                <li><a href="#highlights">Destaques</a></li>
-                <li><a href="#contact">Contato</a></li>
-            </ul>
+    <header class="site-header">
+        <div class="nav-inner">
+            <a href="#home" class="brand">
+                <span class="mark">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M4 4h16v12H4z"/>
+                        <path d="M9 20h6"/>
+                        <path d="M12 16v4"/>
+                    </svg>
+                </span>
+                Lixo Eletrônico Mossoró
+            </a>
+            <nav aria-label="Navegação principal">
+                <ul>
+                    <li><a href="#o-que-e">O que é</a></li>
+                    <li><a href="#problemas">Problemas</a></li>
+                    <li><a href="#solucoes">Soluções</a></li>
+                    <li><a href="#descarte">Pontos de coletas</a></li>
+                    <li><a href="#contato">Sobre nós e contato</a></li>
+                </ul>
+            </nav>
+            <a class="nav-cta" href="#descarte">Ver pontos de descarte</a>
         </div>
-    </nav>
+    </header>
 
-    <!-- Hero Section -->
-    <section class="hero" id="home">
-        <div class="hero-content">
-            <h1>Lixo Eletrônico</h1>
-            <p>Gestão Sustentável de Resíduos Eletrônicos para um Futuro Melhor</p>
-            <button class="cta-button">Saiba Mais</button>
-        </div>
-    </section>
-
- <!-- Botão WhatsApp -->
- <a href="https://wa.me/558491295553?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20projeto%20de%20Lixo%20Eletrônico." 
- class="whatsapp-button" 
- target="_blank" 
- aria-label="Conversar no WhatsApp">
-  <i class="ri-whatsapp-line"></i>
-</a>
-
-
-    <!-- What is Electronic Waste -->
-    <section class="what-is-section" id="what-is">
-        <h2 class="section-title">O que é <span class="section-title-accent">Lixo Eletrônico?</span></h2>
-        <div class="what-is-content">
-            <div class="what-is-text">
-                <h3>Compreendendo o Problema</h3>
-                <p>Lixo eletrônico, ou e-waste, refere-se a equipamentos eletrônicos descartados ou obsoletos. Inclui computadores, smartphones, tablets, televisores e outros dispositivos que chegaram ao fim de sua vida útil.</p>
-                
-                <div class="icon-box">
-                    <i class="ri-smartphone-line"></i>
-                    <div class="icon-box-content">
-                        <h4>Dispositivos Móveis</h4>
-                        <p>Smartphones, tablets e wearables descartados anualmente</p>
-                    </div>
+    <section id="home" class="hero">
+        <div class="wrap hero-grid">
+            <div>
+                <span class="eyebrow">Sistema de descarte responsável Brasil</span>
+                <h1>Descarte seu lixo eletrônico do jeito <em>certo</em>.</h1>
+                <p class="lede">Celulares, computadores e eletrodomésticos velhos não vão no lixo comum. Selecione seu estado e cidade para encontrar o ponto de coleta mais próximo.</p>
+                <div class="hero-ctas">
+                    <a class="btn btn-primary" href="#descarte">Buscar ponto de coleta</a>
+                    
                 </div>
-
-                <div class="icon-box">
-                    <i class="ri-computer-line"></i>
-                    <div class="icon-box-content">
-                        <h4>Equipamentos de TI</h4>
-                        <p>Computadores, servidores e periféricos obsoletos</p>
+                <div class="hero-stats">
+                    <div class="item">
+                        <div class="n">13</div>
+                        <div class="l">Pontos mapeados no RN</div>
                     </div>
-                </div>
-
-                <div class="icon-box">
-                    <i class="ri-tv-2-line"></i>
-                    <div class="icon-box-content">
-                        <h4>Eletrodomésticos</h4>
-                        <p>Televisores, geladeiras e outros aparelhos eletrônicos</p>
+                    <div class="item">
+                        <div class="n">62M</div>
+                        <div class="l">Toneladas de e-waste/ano no mundo</div>
+                    </div>
+                    <div class="item">
+                        <div class="n">50%</div>
+                        <div class="l">É reciclado corretamente</div>
                     </div>
                 </div>
             </div>
-            <div class="visual-element">
-                <i class="ri-recycle-2-line"></i>
+            <div class="hero-visual">
+                <img src="lixo eletronico.jpeg" alt="Ilustração de pilha de lixo eletrônico com a palavra Lixo em graffiti" style="width: 100%; height: auto; border-radius: 16px; box-shadow: 0 10px 30px rgba(0,0,0,0.15);">
             </div>
         </div>
     </section>
 
-    <!-- Problems Section -->
-    <section class="problems-section" id="problems">
-        <h2 class="section-title">Por que é um <span class="section-title-accent">Problema?</span></h2>
-        <div class="problems-grid">
-            <div class="problem-card">
-                <h3>
-                    <i class="ri-earth-line"></i>
-                    Impacto Ambiental
-                </h3>
-                <p>O lixo eletrônico contém materiais tóxicos como chumbo, mercúrio e cádmio que contaminam o solo e a água, afetando ecossistemas inteiros e a biodiversidade.</p>
+    <section id="o-que-e">
+        <div class="wrap">
+            <div class="section-head reveal">
+                <span class="kicker">Entenda o problema</span>
+                <h2>O que é lixo eletrônico?</h2>
+                <p>Também chamado de <em>e-waste</em>, é todo equipamento elétrico ou eletrônico descartado ou obsoleto — de um celular quebrado a uma geladeira velha.</p>
             </div>
-
-            <div class="problem-card">
-                <h3>
-                    <i class="ri-alert-line"></i>
-                    Riscos à Saúde
-                </h3>
-                <p>A exposição a substâncias químicas presentes no e-waste causa doenças respiratórias, problemas neurológicos e câncer em pessoas que trabalham com reciclagem inadequada.</p>
-            </div>
-
-            <div class="problem-card">
-                <h3>
-                    <i class="ri-bar-chart-line"></i>
-                    Crescimento Exponencial
-                </h3>
-                <p>A geração de lixo eletrônico cresce 2-3 vezes mais rápido que outros tipos de resíduos, com bilhões de toneladas produzidas anualmente em todo o mundo.</p>
-            </div>
-
-            <div class="problem-card">
-                <h3>
-                    <i class="ri-alert-line"></i>
-                    Desperdício de Recursos
-                </h3>
-                <p>Materiais valiosos como ouro, prata e cobre são perdidos quando o e-waste é descartado inadequadamente, representando perdas econômicas significativas.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Solutions Section -->
-    <section class="solutions-section" id="solutions">
-        <h2 class="section-title">Soluções e <span class="section-title-accent">Alternativas</span></h2>
-        <div class="solutions-grid">
-            <div class="solution-card">
-                <i class="ri-refresh-line"></i>
-                <h3>Reciclagem Adequada</h3>
-                <p>Encaminhar o lixo eletrônico para centros de reciclagem certificados que recuperam materiais valiosos de forma segura e responsável.</p>
-            </div>
-
-            <div class="solution-card">
-                <i class="ri-repeat-line"></i>
-                <h3>Reutilização</h3>
-                <p>Doar ou vender equipamentos ainda funcionais para estender sua vida útil e reduzir a demanda por novos produtos eletrônicos.</p>
-            </div>
-
-            <div class="solution-card">
-                <i class="ri-tools-line"></i>
-                <h3>Reparo e Manutenção</h3>
-                <p>Reparar dispositivos danificados em vez de descartá-los, economizando recursos e reduzindo o volume de resíduos eletrônicos.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Highlights Section -->
-    <section class="highlights-section" id="highlights">
-        <h2 class="section-title">Destaques <span class="section-title-accent">Importantes</span></h2>
-        <div class="highlights-grid">
-            <div class="highlight-card">
-                <div class="highlight-card-content">
-                    <div class="highlight-number">62M</div>
-                    <h3>Toneladas/Ano</h3>
-                    <p>Lixo eletrônico gerado globalmente anualmente</p>
+            <div class="grid-3">
+                <div class="card reveal">
+                    <div class="icon-box">
+                        <svg viewBox="0 0 24 24"><rect x="7" y="2" width="10" height="17" rx="2"/><line x1="10" y1="17" x2="14" y2="17"/></svg>
+                    </div>
+                    <h3>Dispositivos móveis</h3>
+                    <p>Smartphones, tablets e wearables descartados aos milhões todos os anos.</p>
                 </div>
-            </div>
-
-            <div class="highlight-card">
-                <div class="highlight-card-content">
-                    <div class="highlight-number">50%</div>
-                    <h3>Taxa de Reciclagem</h3>
-                    <p>Apenas metade é adequadamente reciclada ou reutilizada</p>
+                <div class="card reveal">
+                    <div class="icon-box">
+                        <svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="12" rx="1.5"/><line x1="8" y1="20" x2="16" y2="20"/><line x1="12" y1="16" x2="12" y2="20"/></svg>
+                    </div>
+                    <h3>Equipamentos de TI</h3>
+                    <p>Computadores, servidores, monitores e periféricos que chegam ao fim da vida útil.</p>
                 </div>
-            </div>
-
-            <div class="highlight-card">
-                <div class="highlight-card-content">
-                    <div class="highlight-number">1000+</div>
-                    <h3>Substâncias Tóxicas</h3>
-                    <p>Compostos perigosos encontrados em dispositivos eletrônicos</p>
-                </div>
-            </div>
-
-            <div class="highlight-card">
-                <div class="highlight-card-content">
-                    <div class="highlight-number">90%</div>
-                    <h3>Taxa de Recuperação</h3>
-                    <p>Materiais valiosos recuperáveis do lixo eletrônico</p>
+                <div class="card reveal">
+                    <div class="icon-box">
+                        <svg viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="12" rx="1.5"/><path d="M9 21h6"/><path d="M12 15v6"/></svg>
+                    </div>
+                    <h3>Eletrodomésticos</h3>
+                    <p>TVs, geladeiras e outros aparelhos que exigem descarte especial, não o lixo comum.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Tips Section -->
-    <section class="tips-section">
-        <h2 class="section-title">Dicas <span class="section-title-accent">Práticas</span></h2>
-        <div class="tips-grid">
-            <div class="tip-card">
-                <div class="tip-number">1</div>
-                <i class="ri-search-line"></i>
-                <h3>Localize Centros</h3>
-                <p>Pesquise centros de reciclagem certificados próximos à sua região para descartar equipamentos adequadamente.</p>
+    <section id="problemas">
+        <div class="wrap">
+            <div class="section-head reveal">
+                <span class="kicker">Por que isso importa</span>
+                <h2>Os riscos do descarte incorreto</h2>
+                <p>Quatro impactos diretos que o lixo eletrônico causa quando não é destinado corretamente.</p>
             </div>
-
-            <div class="tip-card">
-                <div class="tip-number">2</div>
-                <i class="ri-shield-check-line"></i>
-                <h3>Dados Seguros</h3>
-                <p>Sempre apague dados pessoais de dispositivos antes de reciclar ou descartar para proteger sua privacidade.</p>
-            </div>
-
-            <div class="tip-card">
-                <div class="tip-number">3</div>
-                <i class="ri-gift-line"></i>
-                <h3>Doe Equipamentos</h3>
-                <p>Doe equipamentos ainda funcionais para ONGs, escolas ou programas de inclusão digital em sua comunidade.</p>
-            </div>
-
-            <div class="tip-card">
-                <div class="tip-number">4</div>
-                <i class="ri-lightbulb-line"></i>
-                <h3>Compre Consciente</h3>
-                <p>Escolha produtos de qualidade superior e marcas comprometidas com sustentabilidade e responsabilidade ambiental.</p>
-            </div>
-
-            <div class="tip-card">
-                <div class="tip-number">5</div>
-                <i class="ri-megaphone-line"></i>
-                <h3>Conscientize Outros</h3>
-                <p>Compartilhe informações sobre lixo eletrônico com amigos e família para aumentar a conscientização coletiva.</p>
+            <div class="problem-grid">
+                <div class="problem-card reveal">
+                    <div class="icon-box">
+                        <svg viewBox="0 0 24 24"><path d="M12 2v6M12 22v-6M4.9 4.9l4.2 4.2M14.9 14.9l4.2 4.2M2 12h6M16 12h6M4.9 19.1l4.2-4.2M14.9 9.1l4.2-4.2"/></svg>
+                    </div>
+                    <div>
+                        <h3>Contaminação do solo e da água</h3>
+                        <p>Metais como chumbo, mercúrio e cádmio vazam de aparelhos descartados incorretamente e afetam ecossistemas inteiros.</p>
+                    </div>
+                </div>
+                <div class="problem-card reveal">
+                    <div class="icon-box">
+                        <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-11V5l-8-3-8 3v6c0 7 8 11 8 11z"/></svg>
+                    </div>
+                    <div>
+                        <h3>Riscos para a saúde</h3>
+                        <p>A exposição a substâncias tóxicas do e-waste está ligada a doenças respiratórias e neurológicas.</p>
+                    </div>
+                </div>
+                <div class="problem-card reveal">
+                    <div class="icon-box">
+                        <svg viewBox="0 0 24 24"><path d="M3 17l6-6 4 4 8-8"/><path d="M15 7h6v6"/></svg>
+                    </div>
+                    <div>
+                        <h3>Crescimento acelerado</h3>
+                        <p>O volume de lixo eletrônico cresce 2 a 3 vezes mais rápido que outros tipos de resíduo no mundo.</p>
+                    </div>
+                </div>
+                <div class="problem-card reveal">
+                    <div class="icon-box">
+                        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
+                    </div>
+                    <div>
+                        <h3>Recursos perdidos</h3>
+                        <p>Ouro, prata e cobre se perdem quando eletrônicos vão parar no lixo comum em vez da reciclagem.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer id="contact">
-        <div class="footer-content">
-            <div class="footer-column">
-                <h3>Sobre Nós</h3>
-                <p>Somos uma organização dedicada a promover a gestão sustentável de resíduos eletrônicos e conscientizar a população sobre os impactos ambientais.</p>
-                <div class="social-icons">
-                    <a href="#" class="social-icon"><i class="ri-facebook-line"></i></a>
-                    <a href="#" class="social-icon"><i class="ri-twitter-line"></i></a>
-                    <a href="#" class="social-icon"><i class="ri-instagram-line"></i></a>
-                    <a href="#" class="social-icon"><i class="ri-linkedin-line"></i></a>
+    <section id="solucoes">
+        <div class="wrap">
+            <div class="section-head reveal">
+                <span class="kicker">Como agir</span>
+                <h2>Soluções e alternativas</h2>
+                <p>Três caminhos simples para reduzir o impacto do seu lixo eletrônico.</p>
+            </div>
+            <div class="solutions-row">
+                <div class="card reveal">
+                    <span class="step-index mono">01</span>
+                    <h3 style="margin-top:10px;">Reciclagem adequada</h3>
+                    <p>Leve o equipamento a um centro certificado, que recupera materiais valiosos com segurança.</p>
+                </div>
+                <div class="card reveal">
+                    <span class="step-index mono">02</span>
+                    <h3 style="margin-top:10px;">Reutilização</h3>
+                    <p>Doe ou venda aparelhos que ainda funcionam, estendendo sua vida útil.</p>
+                </div>
+                <div class="card reveal">
+                    <span class="step-index mono">03</span>
+                    <h3 style="margin-top:10px;">Reparo e manutenção</h3>
+                    <p>Conserte em vez de trocar — economiza recursos e reduz o volume de resíduos.</p>
                 </div>
             </div>
+        </div>
+    </section>
 
-            <div class="footer-column">
-                <h3>Contato</h3>
-                <p><strong>Email:</strong> <a href="mailto:info@lixoeletronico.com">info@lixoeletronico.com</a></p>
-                <p><strong>Telefone:</strong> <a href="tel:+551133334444">(84) 3422-5004</a></p>
-                <p><strong>Endereço:</strong>  R. Dr. João Marcelino, 867 - Nova Betânia, Mossoró - RN, 59612-012</p>
-                <p><strong>Horário:</strong> Seg-Sex: 07:30h-22:00h sab-dom: Fechado</p>
+    <section id="destaques">
+        <div class="wrap">
+            <div class="section-head reveal">
+                <span class="kicker">Dados globais</span>
+                <h2>O problema em números</h2>
+                <p>Um retrato da escala do lixo eletrônico no mundo hoje.</p>
             </div>
-
-            <div class="footer-column">
-                <h3>Links Úteis</h3>
-                <p><a href="#home">Home</a></p>
-                <p><a href="#what-is">O que é Lixo Eletrônico ?</a></p>
-                <p><a href="#problems">Problemas Ambientais</a></p>
-                <p><a href="#solutions">Soluções Sustentáveis</a></p>
-                <p><a href="#highlights">Dados e Estatísticas</a></p>
+            <div class="stats-grid reveal">
+                <div class="stat-cell">
+                    <div class="num">62M</div>
+                    <div class="lbl">Toneladas/ano</div>
+                </div>
+                <div class="stat-cell">
+                    <div class="num">50%</div>
+                    <div class="lbl">Taxa de reciclagem</div>
+                </div>
+                <div class="stat-cell">
+                    <div class="num">1000+</div>
+                    <div class="lbl">Substâncias tóxicas</div>
+                </div>
+                <div class="stat-cell">
+                    <div class="num">90%</div>
+                    <div class="lbl">Taxa de recuperação</div>
+                </div>
             </div>
         </div>
+    </section>
 
-        <div class="footer-bottom">
-            <p>♻️ Lixo Eletrônico — Protegendo o meio ambiente com responsabilidade ♻️</p>
+    <section id="descarte">
+        <div class="wrap">
+            <div class="search-system reveal">
+                <div class="filter-bar">
+                    <div class="filter-field">
+                        <label for="estadoSelect">Estado</label>
+                        <select id="estadoSelect" aria-label="Selecione o estado"></select>
+                    </div>
+                    <div class="filter-field">
+                        <label for="cidadeSelect">Cidade</label>
+                        <select id="cidadeSelect" aria-label="Selecione a cidade"></select>
+                    </div>
+                    <button class="btn-search" id="buscarBtn" type="button">Buscar pontos</button>
+                </div>
+                <p class="national-note">
+                    Nossa base própria hoje cobre o Rio Grande do Norte. Para qualquer cidade do Brasil, você também pode consultar os localizadores nacionais oficiais:
+                    <a href="https://abree.org.br/pontos-de-recebimento" target="_blank" rel="noopener">ABREE</a> (busca por CEP, ~5 mil pontos) e 
+                    <a href="https://greeneletron.org.br/onde-descartar/" target="_blank" rel="noopener">Green Eletron</a> (busca por cidade, ~8 mil pontos).
+                </p>
+            </div>
+
+            <div class="results-status reveal">
+                <div class="count" id="resultsCount">—</div>
+                <span class="status-badge ok" id="resultsBadge">Base verificada</span>
+            </div>
+
+            <div id="resultsArea" class="reveal"></div>
+
+            <div class="disclaimer-box reveal">
+                <svg viewBox="0 0 24 24"><path d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/></svg>
+                <div>Importante: certifique-se de apagar seus dados pessoais e senhas antes de entregar qualquer equipamento para descarte ou reciclagem.</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="dicas">
+        <div class="wrap">
+            <div class="tips-list">
+                <div class="tip-item reveal">
+                    <span class="tip-check"><svg viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg></span>
+                    <div>
+                        <h4>Compre consciente</h4>
+                        <p>Prefira marcas com compromisso real de sustentabilidade e durabilidade.</p>
+                    </div>
+                </div>
+                <div class="tip-item reveal">
+                    <span class="tip-check"><svg viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg></span>
+                    <div>
+                        <h4>Conscientize outros</h4>
+                        <p>Compartilhe este projeto com amigos e familiares.</p>
+                    </div>
+                </div>
+                <div class="tip-item reveal">
+                    <span class="tip-check"><svg viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg></span>
+                    <div>
+                        <h4>Nunca no lixo comum</h4>
+                        <p>Eletrônicos não vão para a coleta doméstica — sempre para um ponto especializado.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato">
+        <div class="wrap">
+            <div class="section-head reveal">
+                <span class="kicker">Fale com a equipe</span>
+                <h2>Sobre nós e contato</h2>
+                <p>Um projeto de conscientização sobre o descarte correto de resíduos eletroeletrônicos.</p>
+            
+            </div>
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <h3>Projeto Lixo Eletrônico Mossoró</h3>
+                    <p>Iniciativa focada na divulgação e mapeamento de ecopontos e soluções para resíduos eletroeletrônicos na região.</p>
+                    <div class="contact-line"><strong>Email:</strong> projetoescolarlixoeletronico@gmail.com </div>
+                    <div class="contact-line"><strong>Região:</strong> Mossoró / RN</div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="wrap">
+            <div>© 2026 Lixo Eletrônico Mossoró — Descarte consciente de resíduos eletroeletrônicos.</div>
+            <div>Projeto de conscientização · Mossoró — RN</div>
         </div>
     </footer>
+
+    <script src="lixo eletronico 2.js" defer></script>
 </body>
 </html>
